@@ -1,0 +1,13 @@
+@import url(./login.css);
+
+.main-container {
+  padding-bottom: 0;
+}
+
+.auth-section {
+  height: 72vh;
+}
+
+.auth-section span {
+  color: var(--primary-color);
+}

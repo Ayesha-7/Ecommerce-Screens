@@ -1,0 +1,48 @@
+@import url(./variables.css);
+@import url(./header.css);
+@import url(./footer.css);
+
+.auth-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 55vh;
+}
+
+.auth-content {
+  background-color: var(--faint-background);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 480px;
+}
+
+.auth-message {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  font-size: 1.2rem;
+}
+
+.auth-message a:hover {
+  color: var(--primary-color);
+}
+
+.input {
+  width: 100%;
+}
+
+.input .input-simple {
+  font-size: 1rem;
+  border: 1px solid var(--primary-color);
+}
+.input .input-simple:focus {
+  outline-color: var(--primary-color);
+}
+
+.auth-section .btn.btn-primary {
+  width: 100%;
+}
