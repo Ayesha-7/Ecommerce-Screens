@@ -1,0 +1,19 @@
+.footer-primary {
+  color: var(--bg-primary);
+  background: var(--bg-dark);
+  text-align: center;
+  padding: 1rem 0;
+}
+
+.footer-socials {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  margin: 1rem;
+}
+
+.footer-socials i:hover {
+  color: var(--color-hover);
+  cursor: pointer;
+}

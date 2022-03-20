@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Home | Plantly</title>
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="https://aceui.netlify.app/aceui-styles.css" />
+    <link rel="stylesheet" href="./style.css" />    
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <div class="main-container">
+      <!-- Main Header -->
+      <header class="main-header flex-row">
+        <nav class="nav-bar">
+          <a href="https://plantlybyaish.netlify.app">
+            <h4 class="nav-logo">🌿Plantly</h4>
+          </a>
+          <div class="nav-search">
+            <form class="form-search">
+              <div class="search-container">
+                <input
+                  class="search-input"
+                  type="search"
+                  name="search"
+                  placeholder="What are you looking for?"
+                />
+                <button class="btn-search" type="submit">
+                  <i
+                    class="fa fa-search fa-lg"
+                    title="Search"
+                    aria-hidden="true"
+                  ></i>
+                </button>
+              </div>
+            </form>
+          </div>
+          <ul class="nav-links">
+            <li class="nav-link">
+              <a href="./Pages/wishlist.html"
+                ><i class="fa fa-heart fa-lg" aria-hidden="true"></i
+              ></a>
+            </li>
+            <li class="nav-link">
+              <a href="./Pages/cart.html"
+                ><i class="fa fa-shopping-cart fa-lg" aria-hidden="true"></i
+              ></a>
+            </li>
+            <li class="nav-link">
+              <a href="./Pages/signup.html">Sign up</a>
+            </li>
+            <li class="nav-link">
+              <a href="./Pages/login.html"><button class="btn btn-primary">Login</button></a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+      <!-- Hero Section -->
+
+      <section class="hero-section mt-4">
+        <div class="hero-text">
+          <h1 class="text-bolder mx-2 my-1">
+            Bring Calm to <br />Your Place With<br />Interior Plants
+          </h1>
+          <h5 class="mx-2 my-05">Now shop the best plants under one roof</h5>
+          <p class="mx-2 my-1">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi.
+          </p>
+          <a href="./Pages/productListing.html" class="m-2"
+            ><button class="btn btn-primary">Shop Now</button></a
+          >
+          <div class="numbers flex-row my-1">
+            <div class="count flex-column mx-2 my-1">
+              <p class="text-semibold">2.5K+</p>
+              <p>Customers</p>
+            </div>
+            <div class="count flex-column mx-2 my-1">
+              <p class="text-semibold">1.7K+</p>
+              <p>Deliveries</p>
+            </div>
+            <div class="count flex-column mx-2 my-1">
+              <p class="text-semibold">5K+</p>
+              <p>Plants sold</p>
+            </div>
+          </div>
+        </div>
+        <div class="hero-images">
+          <div class="image-1">
+            <img
+              class="image-responsive"
+              src="./Assests/Images/interiorPlant2.jpg"
+              alt="interior plant"
+            />
+          </div>
+          <div class="image-2">
+            <img
+              class="image-responsive"
+              src="./Assests/Images/interiorPlant3.jpg"
+              alt="interior plant"
+            />
+          </div>
+        </div>
+      </section>
+    </div>
+    
+    <!-- Section - why us -->
+
+    <section class="sub-section p-2 mb-2">
+      <div class="card card-vertical">
+        <div class="card-image">
+          <img
+            src="./Assests/Images/fast-delivery.png"
+            class="image-square"
+            alt="fast delivery"
+          />
+        </div>
+        <div class="text-center card-content">
+          <h4 class="card-title">Fast Delivery</h4>
+          <div class="card-description">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor
+          </div>
+        </div>
+      </div>
+      <div class="card card-vertical">
+        <div class="card-image">
+          <img src="./Assests/Images/heart.png" class="image-square" alt="suitable for all"/>
+        </div>
+        <div class="text-center card-content">
+          <h4 class="card-title">Suitable for all</h4>
+          <div class="card-description">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor
+          </div>
+        </div>
+      </div>
+      <div class="card card-vertical">
+        <div class="card-image">
+          <img src="./Assests/Images/wallet.png" class="image-square" alt="best prices" />
+        </div>
+        <div class="text-center card-content">
+          <h4 class="card-title">Best Prices</h4>
+          <div class="card-description">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section - Collection -->
+    <section>
+      <h2 class="section-title text-center m-4">
+        Shop from our wide Collections
+      </h2>
+      <div class="collection-container flex-row m-2">
+        <div class="collections-1 flex-column">
+          <div class="collection-card image-1">
+            <img
+              class="image-responsive image-1"
+              src="./Assests/Images/interiorPlant5.jpg"
+              alt="plant"
+            />
+            <p class="collection-title">Office Collection</p>
+          </div>
+          <div class="sub-collection flex-row">
+            <div class="collection-card image-2">
+              <img
+                class="image-responsive image-2"
+                src="./Assests/Images/succulent2.jpg"
+                alt="plant"
+              />
+              <p class="collection-title">Succulents</p>
+            </div>
+            <div class="collection-card image-2">
+              <img
+                class="image-responsive image-2"
+                src="./Assests/Images/outdoorPlant.jpg"
+                alt="plant"
+              />
+              <p class="collection-title">Outdoor Plants</p>
+            </div>
+          </div>
+        </div>
+        <div class="collections-2 flex-column">
+          <div class="collection-card image-1">
+            <img
+              class="image-responsive image-1"
+              src="./Assests/Images/petFriendly1.jpg"
+              alt="plant"
+            />
+            <p class="collection-title">Pet Friendly</p>
+          </div>
+          <div class="collection-card image-2">
+            <img
+              class="image-responsive image-2"
+              src="./Assests/Images/interiorPlant1.jpg"
+              alt="plant"
+            />
+            <p class="collection-title">Indoor Plants</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section - Best sellers -->
+    <section>
+      <h2 class="section-title text-center m-4">
+        Best Sellers
+      </h2>
+      <div class="collections-1 section-2">
+        <div class="collection-card image-2 mx-1">
+          <img
+            class="image-responsive image-2"
+            src="./Assests/Images/succulent2.jpg"
+            alt="plant"
+          />
+          <p class="collection-title">Best seller</p>
+        </div>
+        <div class="collection-card image-2 mx-1">
+          <img
+            class="image-responsive image-2"
+            src="./Assests/Images/potted-plants.jpg"
+            alt="plant"
+          />
+          <p class="collection-title">Best seller</p>
+        </div>
+        <div class="collection-card image-2 mx-1">
+          <img
+            class="image-responsive image-2"
+            src="./Assests/Images/basil-herb.jpg"
+            alt="plant"
+          />
+          <p class="collection-title">Best seller</p>
+        </div>
+        <div class="collection-card image-2 mx-1">
+          <img
+            class="image-responsive image-2"
+            src="./Assests/Images/succulent.jpg"
+            alt="plant"
+          />
+          <p class="collection-title">Best seller</p>
+        </div>
+      </div>
+      <div class="section-cta my-1">
+        <a href="./Pages/productListing.html" class="m-2"
+          ><button class="btn btn-primary">Eplore Now!</button></a
+        >
+      </div>
+    </section>
+
+    <!-- Footer-->
+    <footer>
+      <div class="footer-primary">
+        <p>
+          Connect with us
+        </p>
+        <div class="footer-socials">
+          <span>
+            <i class="fa fa-instagram fa-2x" aria-hidden="true"></i>
+          </span>
+          <span>
+            <i class="fa fa-twitter fa-2x" aria-hidden="true"></i>
+          </span>
+          <span>
+            <i class="fa fa-youtube-play fa-2x" aria-hidden="true"></i>
+          </span>
+          <span>
+            <i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i>
+          </span>
+        </div>
+        <p class="text-center m-1">©Plantly🌿 2022</p>
+      </div>
+      </div>
+      </div>
+    </footer>
+  </body>
+</html>
+<!-- rgba(18, 171, 3, 1) 17%
+  rgba(23,203,5,1) 30% -->

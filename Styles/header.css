@@ -1,0 +1,54 @@
+.nav-bar {
+  background: transparent;
+  color: var(--text-color);
+  padding: 0;
+}
+
+.nav-logo {
+  margin: 1rem;
+}
+
+.nav-search {
+  min-width: 30%;
+}
+
+.search-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 2px solid black;
+  border-radius: 8px;
+  padding: 0.5rem;
+}
+
+.search-container > * {
+  background-color: transparent;
+  border: none;
+}
+
+.search-container input {
+  width: 90%;
+  outline: transparent;
+  font-size: 1rem;
+}
+
+.search-container .btn-search {
+  cursor: pointer;
+}
+
+.btn-primary {
+  background: var(--primary-color);
+}
+
+.btn-primary:hover {
+  background-color: var(--color-hover);
+}
+.nav-link a:hover {
+  color: var(--color-active);
+}
+
+.search-container .btn-search:hover {
+  color: var(--color-hover);
+  cursor: pointer;
+}

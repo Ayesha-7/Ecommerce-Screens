@@ -1,0 +1,139 @@
+.hero-section {
+  display: flex;
+  align-items: center;
+}
+
+.hero-text {
+  max-width: 40vw;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  letter-spacing: 0;
+}
+
+.main-container {
+  padding-left: 8rem;
+  padding-right: 8rem;
+  padding-bottom: 4rem;
+}
+
+.hero-images {
+  display: flex;
+  align-items: baseline;
+  gap: 2rem;
+}
+
+.hero-section .image-1,
+.hero-section .image-2 {
+  width: 18rem;
+  border-top-left-radius: 144px;
+  border-top-right-radius: 144px;
+}
+
+.hero-section .image-1 > img,
+.hero-section .image-2 > img {
+  border-top-left-radius: 144px;
+  border-top-right-radius: 144px;
+  border: 8px solid var(--black-6);
+}
+
+.hero-section .image-2 {
+  width: 16rem;
+}
+.sub-section {
+  background: var(--green-gradient);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.card-vertical {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 18rem;
+}
+
+.sub-section .card-vertical:hover {
+  box-shadow: none;
+}
+.card-image .image-square {
+  height: 4rem;
+  width: 4rem;
+  margin: 0 1rem 1rem;
+}
+
+.collection-container {
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.collections-1,
+.collections-2 {
+  gap: 1rem;
+}
+
+.collection-card {
+  position: relative;
+  transition: all 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.collection-card .collection-title {
+  position: absolute;
+  bottom: 0;
+  padding: 1rem;
+  width: 100%;
+  background: var(--faint-background);
+  color: var(--text-color);
+  text-align: center;
+  font-weight: bold;
+}
+
+.sub-collection {
+  gap: 1rem;
+}
+
+.collections-1 .image-1 {
+  width: 25rem;
+  height: 28rem;
+}
+
+.collections-1 .image-2 {
+  width: 12rem;
+  height: 16rem;
+}
+
+.collections-2 .image-1 {
+  width: 24rem;
+  height: 20rem;
+}
+
+.collections-2 .image-2 {
+  width: 24rem;
+  height: 24rem;
+}
+
+.section-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-cta {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.collection-card:hover {
+  cursor: pointer;
+  transform: scale(0.95);
+}
