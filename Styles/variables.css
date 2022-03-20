@@ -5,5 +5,10 @@
   --text-color: #000000d9;
   --color-active: #009051;
   --color-hover: #03693d;
+  --green-gradient: radial-gradient(
+    circle,
+    hsla(130, 100%, 88%, 1) 0%,
+    hsla(0, 0%, 100%, 0.7) 100%
+  );
   --faint-background: #e5e7ebcb;
 }

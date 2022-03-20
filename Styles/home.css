@@ -46,11 +46,7 @@ h6 {
   width: 16rem;
 }
 .sub-section {
-  background: radial-gradient(
-    circle,
-    hsla(130, 100%, 88%, 1) 0%,
-    hsla(0, 0%, 100%, 0.7) 100%
-  );
+  background: var(--green-gradient);
   display: flex;
   align-items: center;
   justify-content: center;
