@@ -1,0 +1,26 @@
+.input-checkbox label,
+.input-radio label {
+  font-size: 1rem;
+}
+
+.input-checkbox:hover,
+.input-radio:hover {
+  color: var(--primary-color);
+}
+
+.input-checkbox input,
+.input-radio input {
+  height: 1rem;
+  width: 1rem;
+  cursor: pointer;
+}
+
+.input-slider {
+  width: inherit;
+}
+
+.slider-price-range {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

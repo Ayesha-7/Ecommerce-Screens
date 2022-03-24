@@ -1,0 +1,18 @@
+.all-products {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-flow: row wrap;
+  gap: 1rem;
+}
+
+.card-product.card-vertical {
+  max-width: 250px;
+}
+.card-image {
+  max-width: inherit;
+}
+.card-product.card-vertical .card-image img {
+  height: 18rem;
+  max-width: inherit;
+}

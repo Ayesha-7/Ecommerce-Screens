@@ -1,0 +1,11 @@
+@import url("./header.css");
+@import url("./footer.css");
+@import url("./variables.css");
+@import url("./filters.css");
+@import url("./productCards.css");
+
+.body-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+}
