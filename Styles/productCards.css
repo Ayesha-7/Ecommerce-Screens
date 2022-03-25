@@ -21,6 +21,10 @@
   max-width: inherit;
 }
 
+.card-product.card-vertical .card-content {
+  width: 100%;
+}
+
 .card-product.card-horizontal {
   max-height: 250px;
   max-width: 450px;
