@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Cart | Plantly</title>
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="https://aceui.netlify.app/aceui-styles.css" />
+    <link rel="stylesheet" href="../Styles/cart.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+
+  <body>
+    <div class="px-8">
+      <!-- Main Header -->
+      <header class="main-header flex-row">
+        <nav class="nav-bar">
+          <a href="https://plantlybyaish.netlify.app">
+            <h4 class="nav-logo">🌿Plantly</h4>
+          </a>
+          <div class="nav-search">
+            <form class="form-search">
+              <div class="search-container">
+                <input
+                  class="search-input"
+                  type="search"
+                  name="search"
+                  placeholder="What are you looking for?"
+                />
+                <button class="btn-search" type="submit">
+                  <i
+                    class="fa fa-search fa-lg"
+                    title="Search"
+                    aria-hidden="true"
+                  ></i>
+                </button>
+              </div>
+            </form>
+          </div>
+          <ul class="nav-links">
+            <li class="nav-link">
+              <a href="./wishlist.html"
+                ><i class="fa fa-heart fa-lg" aria-hidden="true"></i
+              ></a>
+            </li>
+            <li class="nav-link">
+              <div class="badge">
+                <a href="./cart.html" class="active"
+                  ><i class="fa fa-shopping-cart fa-lg" aria-hidden="true"></i
+                ></a>
+                <div class="number top-right badge-sm">7</div>
+              </div>
+            </li>
+            <li class="nav-link">
+              <a href="./signup.html">Sign up</a>
+            </li>
+            <li class="nav-link">
+              <a href="./login.html"
+                ><button class="btn btn-primary">Login</button></a
+              >
+            </li>
+          </ul>
+        </nav>
+      </header>
+    </div>
+
+    <!-- Section - Header -->
+    <section class="sub-section p-2 mb-2">
+      <h5>Cart ------- Address ------- Payment</h5>
+    </section>
+    <!--Main Cart Page Body-->
+    <main class="body-container mx-8">
+      <!-- Section - Cart Items -->
+      <section class="flex-column mb-2">
+        <div class="card-product card-horizontal">
+          <div class="card-image">
+            <img
+              src="../Assests/Images/potted-plants.jpg"
+              class="image-responive"
+            />
+          </div>
+          <div class="card-content p-2">
+            <div class="card-dismiss top-right">X</div>
+            <h4 class="card-title">Rubber Plant</h4>
+            <p class="card-subtext">Popular in House plants</p>
+            <span class="price-now">₹399</span>
+            <span class="price-before">₹599</span>
+            <span class="discount">(33% OFF)</span>
+            <div class="product-qty">
+              <div class="mt-05">Quantity</div>
+              <div class="card-qty">
+                <button class="btn btn-outline qty-btn">-</button>
+                <div class="input">
+                  <input type="text" class="input-simple" value="1" />
+                </div>
+                <button class="btn btn-outline qty-btn">+</button>
+              </div>
+            </div>
+            <div class="card-cta">
+              <button class="btn btn-outline">Move to Wishlist</button>
+            </div>
+          </div>
+        </div>
+        <div class="card-product card-horizontal">
+          <div class="card-image">
+            <img
+              src="../Assests/Images/potted-plants.jpg"
+              class="image-responive"
+            />
+          </div>
+          <div class="card-content p-2">
+            <div class="card-dismiss top-right">X</div>
+            <h4 class="card-title">Rubber Plant</h4>
+            <p class="card-subtext">Popular in House plants</p>
+            <span class="price-now">₹399</span>
+            <span class="price-before">₹599</span>
+            <span class="discount">(33% OFF)</span>
+            <div class="product-qty">
+              <div class="mt-05">Quantity</div>
+              <div class="card-qty">
+                <button class="btn btn-outline qty-btn">-</button>
+                <div class="input">
+                  <input type="text" class="input-simple" value="1" />
+                </div>
+                <button class="btn btn-outline qty-btn">+</button>
+              </div>
+            </div>
+            <div class="card-cta">
+              <button class="btn btn-outline">Move to Wishlist</button>
+            </div>
+          </div>
+        </div>
+        <div class="card-product card-horizontal">
+          <div class="card-image">
+            <img
+              src="../Assests/Images/potted-plants.jpg"
+              class="image-responive"
+            />
+          </div>
+          <div class="card-content p-2">
+            <div class="card-dismiss top-right">X</div>
+            <h4 class="card-title">Rubber Plant</h4>
+            <p class="card-subtext">Popular in House plants</p>
+            <span class="price-now">₹399</span>
+            <span class="price-before">₹599</span>
+            <span class="discount">(33% OFF)</span>
+            <div class="product-qty">
+              <div class="mt-05">Quantity</div>
+              <div class="card-qty">
+                <button class="btn btn-outline qty-btn">-</button>
+                <div class="input">
+                  <input type="text" class="input-simple" value="1" />
+                </div>
+                <button class="btn btn-outline qty-btn">+</button>
+              </div>
+            </div>
+            <div class="card-cta">
+              <button class="btn btn-outline">Move to Wishlist</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Section - Cart Details -->
+      <aside>
+        <!--Checkout-->
+        <div class="cart checkout p-2">
+          <h5 class="text-center">Price Details</h5>
+          <div class="price-details">
+            <div class="price">
+              <p>Price (3 items)</p>
+              <p>₹2240</p>
+            </div>
+            <div class="discount">
+              <p>Discount</p>
+              <p>- ₹340</p>
+            </div>
+            <div class="delivery">
+              <p>Delivery charges</p>
+              <p>FREE</p>
+            </div>
+            <div class="total-charges">
+              <p class="text-semibold">Total</p>
+              <p class="text-semibold">₹1900</p>
+            </div>
+          </div>
+
+          <div class="coupons my-1 text-center">
+            <a
+              ><i class="fa fa-tags fa-lg" aria-hidden="true"></i> Apply
+              Coupons</a
+            >
+          </div>
+          <button class="btn btn-primary">
+            Place Order
+          </button>
+        </div>
+      </aside>
+    </main>
+
+    <!-- Footer-->
+    <footer>
+      <div class="footer-primary">
+        <p>
+          Connect with us
+        </p>
+        <div class="footer-socials">
+          <span>
+            <i class="fa fa-instagram fa-2x" aria-hidden="true"></i>
+          </span>
+          <span>
+            <i class="fa fa-twitter fa-2x" aria-hidden="true"></i>
+          </span>
+          <span>
+            <i class="fa fa-youtube-play fa-2x" aria-hidden="true"></i>
+          </span>
+          <span>
+            <i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i>
+          </span>
+        </div>
+        <p class="text-center m-1">©Plantly🌿 2022</p>
+      </div>
+    </footer>
+  </body>
+</html>

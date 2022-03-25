@@ -1,0 +1,56 @@
+@import url("../style.css");
+@import url("./productCards.css");
+
+.flex-column {
+  gap: 1rem;
+}
+
+.active {
+  color: var(--primary-color);
+}
+
+.badge .top-right {
+  top: -0.25rem;
+  left: 1.25rem;
+  background: var(--text-color);
+  color: var(--bg-primary);
+}
+
+.body-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-evenly;
+}
+
+.cart.checkout {
+  width: 450px;
+  background: var(--faint-background);
+}
+
+.price-details,
+.price-details .total-charges {
+  border-top: 1px solid var(--primary-color);
+}
+
+.price-details .price,
+.price-details .discount,
+.price-details .delivery,
+.price-details .total-charges {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 1rem;
+}
+
+.cart.checkout .coupons {
+  font-size: 1.2rem;
+}
+
+.cart.checkout .coupons a:hover {
+  color: var(--primary-color);
+  cursor: pointer;
+}
+
+.cart.checkout .btn.btn-primary {
+  width: 100%;
+}
